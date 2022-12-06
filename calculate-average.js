@@ -4,5 +4,9 @@
 
 // My solution
 function findAverage(array) {
-    return array.reduce((a, b) => a + b, 0) / array.length
+    if(array.length === 0){
+      return 0
+    }else{
+      return array.reduce((a, b) => a + b, 0) / array.length
+    }
 }
