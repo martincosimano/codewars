@@ -8,7 +8,7 @@
 
 // My solution
 function mouthSize(animal) {
-    if(animal === 'alligator'){
+    if(animal.toLowerCase() === 'alligator'){
       return 'small'
     }else{
       return 'wide'
