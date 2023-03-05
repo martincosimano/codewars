@@ -14,6 +14,6 @@
 // My solution:
 function mergeArrays(arr1, arr2) {
     const newArray = [...arr1, ...arr2];
-    let result = [...new Set(mergeArray)];
+    let result = [...new Set(newArray)];
     return result.sort((a, b) => a - b);
 }
