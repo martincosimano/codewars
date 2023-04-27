@@ -14,5 +14,5 @@
 // My solution:
 const isConsecutive=s=> {
     let arr = s.match(/(.)\1*/g);
-    return arr.length == new Set(arr).size;
+    return arr.length==new Set(arr).size;
 }
